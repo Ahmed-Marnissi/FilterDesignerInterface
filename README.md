@@ -1,4 +1,6 @@
 # FilterDesignerInterface
+![image](https://user-images.githubusercontent.com/109542834/208264076-f48f1043-c833-47ab-bcad-5d12e59f409c.png)
+
 # Motivation
 To implement a digital filter on a microcontroller you need to know its recurent equation 
 For this we need to know the transfer function of the filter, then we need to do the z-transformation and finally calculate the recurrent equation.
