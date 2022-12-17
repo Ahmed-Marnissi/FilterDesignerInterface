@@ -1,6 +1,9 @@
 # FilterDesignerInterface
 # Motivation
+To implement a digital filter on a microcontroller you need to know its recurent equation 
+For this we need to know the transfer function of the filter, then we need to do the z-transformation and finally calculate the recurrent equation.
 # Solution
+I have developed a Qt interface that allows you to do the necessary calculations to create a digital filter.
 # Demo
 
 
