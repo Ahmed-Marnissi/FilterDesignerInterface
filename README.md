@@ -1,7 +1,7 @@
 # FilterDesignerInterface
-#Motivation
-#Solution
-#Demo
+# Motivation
+# Solution
+# Demo
 
 
 
