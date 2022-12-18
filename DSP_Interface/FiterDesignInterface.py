@@ -2,6 +2,7 @@ import sys
 from PyQt5 import QtWidgets
 import harold
 import string
+import math
 
 class FilterDesigner(QtWidgets.QWidget):
     def __init__(self):
@@ -46,9 +47,9 @@ class FilterDesigner(QtWidgets.QWidget):
        
 
         # Design the filter using the provided parameters
-        # TODO: Implement filter design algorithm here
+        
         Type = (self.orderEdit.text())
-        Tau = (float(self.cutoffEdit.text()))
+        Tau = 1/ (2*(math.pi)(float(self.cutoffEdit.text())) )
         Te=float(self.SamplingTimeEdit.text())
         print(Type)
         if(Type=="LOWPASS"):
