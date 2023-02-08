@@ -1,4 +1,4 @@
-# FilterDesignerInterfaceS
+# FilterDesignerInterface
 ![image](https://user-images.githubusercontent.com/109542834/208264076-f48f1043-c833-47ab-bcad-5d12e59f409c.png)
 
 # Motivation
